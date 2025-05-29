@@ -1,0 +1,26 @@
+{
+  "name": "foldingtheuniverse",
+  "version": "1.0.0",
+  "description": "A semiconductor asemic origami torus interface inspired by paper, yarn, and universe folding.",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --open",
+    "build": "webpack",
+    "test": "echo \"No tests defined yet\" && exit 0"
+  },
+  "keywords": ["origami", "torus", "3D", "three.js", "asemics", "folding"],
+  "author": "j.mosij",
+  "license": "MIT",
+  "dependencies": {
+    "three": "^0.152.2"
+  },
+  "devDependencies": {
+    "webpack": "^5.76.1",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.13.3",
+    "babel-loader": "^9.1.2",
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4"
+  }
+}
+
